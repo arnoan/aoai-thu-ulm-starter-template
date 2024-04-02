@@ -1,0 +1,13 @@
+# Langchain & (A)OAI SDK/Integration
+langchain
+langchain-openai
+pydantic
+openai
+
+# For embeddings
+chromadb
+tiktoken
+
+# Jupyter & .env files
+jupyter
+python-dotenv

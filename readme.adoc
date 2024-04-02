@@ -1,0 +1,31 @@
+= Readme
+
+== Usage
+
+.Prep
+. Install Git for Windows/Git Bash, if needed
+. Install Miniforge (for Python), if needed
+
+.Steps
+. Open Terminal and navigate to desired location
+. Clone the repo
+. copy `.env.template` to `.env` and fill in values from E-Mail
+. create a new virtual environment
+. install required packages
+. open jupyter
+. run connectivity test
+
+```bash
+cd ...
+git clone ...
+cp .env.template .env
+# Add values to .env
+# vim .env
+# nano .env
+# code .env
+python -m venv venv --copies
+source venv/bin/activate
+pip install -r requirements_thu.txt
+jupyter lab --config=config.py # add config flag to see invisible files in Jupyter
+```
+
